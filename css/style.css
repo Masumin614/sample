@@ -1,0 +1,151 @@
+body {
+    background-color: rgba(243, 173, 198, 0.5)!important;
+}
+@media screen and (min-width: 781px) {
+
+.header {
+        width: 100%;
+        background-image: url(../img/top.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .header_space {
+        display: flex;
+    }
+    .header_img {
+        width: 45%;
+    }
+    .header_sns {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    .header_sns ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .sns_icon {
+        width:10%;
+    }
+    .menu_nav {
+        height: 60px;
+        background-color: #f3adc5;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav li  {
+        display: block;
+        font-size: 25px;
+        font-family: "SemiBold 600";
+        font-weight: bold;
+        margin: 10px; 
+        border-bottom: 0px;
+    }
+    nav a{
+        color:#fff;
+    }
+    
+    #main {
+        margin: 0 300px;
+        width: 1280px;
+    }
+    .top_img {
+        margin:0 auto;
+    }
+    .top_image {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .top_image img{
+        width: 80%;
+    }
+    .title_img {
+        width: 30%;
+    }
+    .hamburgar-menu, .menu_nav_blank{
+        display: none;
+    }
+    .shop {
+        background-color: #F3ADC5;
+        padding: 40px;
+        display: flex;
+        height: 350px;
+    }
+    .shop_box1 {
+        margin: 20px;
+        width: 200%;
+    }
+    .shop_box2 {
+        padding: 20px;
+    }
+    .shop_box2 p {
+        font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+        font-weight: 700;
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .owner {
+        background-color:rgba(255,255,255,0.5);
+        padding: 40px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .owner_box1 {
+        margin: 20px;
+        width: 200%;
+    }
+    .owner_box1 p {
+        font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+        font-weight: 700;
+        color: #3C3939;
+        font-size: 24.7px;
+    }
+    .owner_box2{
+        width: 100%;
+
+    }
+    .staff_space {
+        width: 1280px;
+        margin-top: 80px;
+        background-color: #F3ADC5;
+        border-radius: 20px;
+    }
+    .staff_info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .staff_box {
+        background-color: #FFF2B2;
+        border-radius: 20px;
+        text-align: center;
+        width: 525px;
+        padding:20px;
+        margin:10px;
+    }
+    .staff_name {
+        color: #FF6099;
+        font-size: 30px;
+        
+    }
+    .text-content {
+        padding:10px 20px;
+        width:80%;
+        margin: 0 auto;
+    }
+    #collection {
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 30px;
+        margin: 50px 0;
+    }
+
+    
+
+
+
+} 

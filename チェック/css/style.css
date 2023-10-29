@@ -1,0 +1,244 @@
+/* リセット */
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+}
+/* ここからスタイルかける */
+
+header {
+    background-image: url(../img/top.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.header_space {
+    display: flex;
+}
+.header_img {
+    width: 45%;
+}
+.header_sns {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.header_sns ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.sns_icon {
+    width:10%;
+}
+nav {
+    height: 60px;
+    background-color: #f3adc5;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    font-size: 25px;
+    font-family: "SemiBold 600";
+    font-weight: bold;
+    margin: 10px; 
+}
+
+.container {
+    margin: 0 10%;
+    width: 1280px;
+}
+#main {
+    background-color: rgb(243,173,197,0.5);
+
+}
+.top_image {
+    padding: 0 20px;
+    text-align: center;
+}
+.top_image img{
+    width: 80%;
+}
+.title_img {
+    width: 30%;
+}
+.shop {
+    background-color: #F3ADC5;
+    padding: 40px;
+    display: flex;
+}
+.shop_box1 {
+    margin: 20px;
+    width: 1280px;
+}
+.shop_box1 img {
+    width: 500px;
+}
+.shop_box2 {
+    margin: 20px;
+    padding: 20px;
+}
+.shop_box2 p {
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 25px;
+}
+
+.owner {
+    background-color:rgba(255,255,255,0.5);
+    padding: 40px;
+    margin-top: 20px;
+    display: flex;
+}
+.owner_box1 {
+    padding: 5% 3%;
+}
+.owner_box1 p {
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    font-weight: 700;
+    color: #3C3939;
+    font-size: 25px;
+}
+
+.staff_space {
+    width: 1280px;
+    margin-top: 20px;
+    background-color: #F3ADC5;
+}
+.staff_info {
+    display: flex;
+    justify-content: space-evenly;
+}
+.staff_box {
+    background-color: #FFF2B2;
+    border-radius: 20px;
+    text-align: center;
+    width: 525px;
+    padding:20px;
+    margin:10px;
+}
+.staff_name {
+    color: #FF6099;
+    font-size: 30px;
+    
+}
+.text-content {
+    padding:10px 20px;
+    width:80%;
+    margin: 0 auto;
+}
+#collection {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 30px;
+    margin: 50px 0;
+}
+/* スライダー */
+.slider {
+    width: 350px;
+    height: 280px;
+    overflow: hidden;
+    margin: 0 auto;
+    
+    }
+  .slider-item {
+    width: 350px;
+    float: left;
+  }
+  img{
+    width:100%;
+  }
+  .slider-inner {
+    width: 300%;
+    animation: slider 10s infinite ease;
+  }
+  
+  @keyframes slider {
+    0% {
+      transform: translateX(0);
+      }
+      33% {
+      transform: translateX(-300px);
+      }
+      66% {
+      transform: translateX(-600px);
+      }
+      100% {
+      transform: translateX(0);
+      }
+  }
+.product_space {
+    background-color: #F3ADC5;
+    display: flex;
+    padding: 30px
+}
+.product_box1 {
+    margin: 30px;
+    text-align: center;
+}
+
+.product_box1 p {
+    font-weight: bold;
+    font-size: 28px;
+    padding: 10px 50px;
+}
+.product_box1 img {
+    margin:10px;
+}
+.product_box2 img {
+    width: 500px;
+}
+.access_space {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.map {
+    width: 600px;
+    height: 100%;
+    margin: 20px;
+}
+.salon_info {
+    background-color: #FFF2B2;
+    width: 450px;
+    margin: 20px;
+}
+.salon_info h2 {
+    font-weight: bold;
+    color:#FF6099;
+}
+.salon_info p {
+    font-size: 20px;
+    text-align: left;
+}
+
+footer {
+background-color: #F3ADC5;
+height: 200px;
+display: flex;
+}
+
+.footer_logo {
+    width: 350px;
+    margin: 30px 0 30px 150px;
+}
+.copylight {
+    margin: 100px 50px;
+}
+.footer_sns {
+    display: flex;
+    height: 50px;
+    text-align: right;
+    margin:100px
+}
+.footer_sns_icon {
+    padding: 5px;
+}
